@@ -1,0 +1,45 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.box-bg-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.box-heading{
+  font-size: 30px;
+  color:#0f172a ;
+}
+.small {
+  height: 45px;
+  width: 45px;
+  background-color: #fbbf24;
+  color: #ffffff;
+}
+
+.medium {
+  height: 65px;
+  width: 65px;
+  background-color: #38bdf8;
+  color: #ffffff;
+}
+.large {
+  height: 85px;
+  width: 85px;
+  background-color: #ec4899;
+  color: #ffffff;
+}
+
+@media (min-width:768px){
+  .box-con{
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+}
